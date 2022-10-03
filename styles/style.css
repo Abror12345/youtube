@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Roboto";
+  width: auto;
+}
+
+.container {
+  width: 1145px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header {
+  justify-content:space-around;
+  background-color: #FFFFFF;
+  padding: 18px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  margin-left: 10px;
+}
+.header__button {
+  background-color:rgb(208, 207, 207);
+  border-radius: 50px;
+  height: 49px;
+  width: 165px;
+  color: white;
+  border: 2px solid rgb(208, 207, 207);
+  transition: 0.5s;
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.header__button:hover {
+  background-color: #fff;
+  color: rgb(208, 207, 207);
+  cursor: pointer;
+}
